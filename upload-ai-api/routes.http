@@ -14,18 +14,12 @@ Content-Type: audio/mpeg
 < ./example.mp3
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
 
+###
 
+# @name create-transcription
+POST http://localhost:3333/videos/e4a4e81a-7cd2-44b3-950b-9482b3dcf0c4/transcription
+Content-Type: application/json
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+{
+  "prompt": "clean architecture, ddd"
+}
